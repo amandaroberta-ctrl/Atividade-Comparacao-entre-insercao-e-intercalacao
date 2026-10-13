@@ -22,6 +22,8 @@ Resultados de tempo;
 | 500 | 0.00873793 | 0.00125520 | 0.00004899 |
 | 1000 | 0.03691555 | 0.00278029 | 0.00009720 |
 
+[Gráfico de tempo](grafico_tempo.png)
+
 A ordenação por inserção apresentou bons resultados nas listas pequenas. O Merge Sort foi mais rápido nos tamanhos 30, 75, 100, 200, 500 e 1000, mas não no tamanho 50. 
 Mas, o primeiro tamanho em que ele foi mais rápido foi 30, sem que isso represente uma vitória contínua em todos os tamanhos seguintes.
 Para listas grandes, o Merge Sort apresentou uma vantagem expressiva. No tamanho 1000, levou aproximadamente 0,00278 segundo, enquanto a inserção levou aproximadamente 0,03692 segundo.
@@ -40,6 +42,8 @@ Resultados das comparações;
 | 200 | 10.224,1 | 1.283,6 | 1.270,2 |
 | 500 | 62.662,9 | 3.848,2 | 3.827,7 |
 | 1000 | 248.753,4 | 8.714,4 | 8.657,0 |
+
+[Gráfico de comparações](grafico_comparacoes.png)
 
 O Merge Sort realizou menos comparações que a inserção em todos os tamanhos analisados. A diferença aumentou conforme o tamanho das listas cresceu.
 No tamanho 1000, a inserção realizou em média 248.753,4 comparações, enquanto o Merge Sort realizou 8.714,4.
