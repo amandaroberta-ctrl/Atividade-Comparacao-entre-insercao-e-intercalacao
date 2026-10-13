@@ -23,7 +23,7 @@ Resultados de tempo;
 | 1000 | 0.03691555 | 0.00278029 | 0.00009720 |
 
 [Gráfico de tempo](grafico_tempo.png)
-<img width="1653" height="993" alt="dados_aleatorios" src="[https://github.com/user-attachments/assets/1bbeeade-b1c9-4355-88f5-7320ffd35e9b](https://github.com/amandaroberta-ctrl/Atividade-Comparacao-entre-insercao-e-intercalacao/blob/main/grafico_tempo.png)" />
+<img width="1653" height="993" alt="grafico_tempo" src="[https://github.com/user-attachments/assets/1bbeeade-b1c9-4355-88f5-7320ffd35e9b](https://github.com/amandaroberta-ctrl/Atividade-Comparacao-entre-insercao-e-intercalacao/blob/main/grafico_tempo.png)" />
 
 A ordenação por inserção apresentou bons resultados nas listas pequenas. O Merge Sort foi mais rápido nos tamanhos 30, 75, 100, 200, 500 e 1000, mas não no tamanho 50. 
 Mas, o primeiro tamanho em que ele foi mais rápido foi 30, sem que isso represente uma vitória contínua em todos os tamanhos seguintes.
@@ -45,7 +45,7 @@ Resultados das comparações;
 | 1000 | 248.753,4 | 8.714,4 | 8.657,0 |
 
 [Gráfico de comparações](grafico_comparacoes.png)
-<img width="1653" height="993" alt="dados_aleatorios" src="[https://github.com/user-attachments/assets/1bbeeade-b1c9-4355-88f5-7320ffd35e9b](https://github.com/amandaroberta-ctrl/Atividade-Comparacao-entre-insercao-e-intercalacao/blob/main/grafico_comparacoes.png)" />
+<img width="1653" height="993" alt="grafico_comparacoes" src="[https://github.com/user-attachments/assets/1bbeeade-b1c9-4355-88f5-7320ffd35e9b](https://github.com/amandaroberta-ctrl/Atividade-Comparacao-entre-insercao-e-intercalacao/blob/main/grafico_comparacoes.png)" />
 
 O Merge Sort realizou menos comparações que a inserção em todos os tamanhos analisados. A diferença aumentou conforme o tamanho das listas cresceu.
 No tamanho 1000, a inserção realizou em média 248.753,4 comparações, enquanto o Merge Sort realizou 8.714,4.
