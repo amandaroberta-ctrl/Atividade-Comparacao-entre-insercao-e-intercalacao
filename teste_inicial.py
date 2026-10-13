@@ -1,10 +1,17 @@
+from ordenacao import insercao, intercala
 
-from ordenacao import insercao
+numeros = [5, 2, 4, 1]
 
-numeros = [1, 2, 3, 4]
-
-resultado, comparacoes = insercao(numeros)
+resultado_insercao, comp_insercao = insercao(numeros)
+resultado_intercala, comp_intercala = intercala(numeros)
 
 print("Lista original:", numeros)
-print("Lista ordenada:", resultado)
-print("Número de comparações:", comparacoes)
+print("Insercao:", resultado_insercao)
+print("Comparacoes da insercao:", comp_insercao)
+print("Intercalacao:", resultado_intercala)
+print("Comparacoes da intercalacao:", comp_intercala)
+
+assert resultado_insercao == [1, 2, 4, 5]
+assert resultado_intercala == [1, 2, 4, 5]
+
+print("Os dois algoritmos funcionaram!")
